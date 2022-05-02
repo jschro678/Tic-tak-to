@@ -112,6 +112,9 @@ static int checktie(List<char>board)
                 return 0;
             }               
 }
+/// <summary>
+/// Updates the board
+/// </summary> 
 static void updateboard(List<char>board, int turn, char player )
 {
 if (board[turn-1] !='o')
